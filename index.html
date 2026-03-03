@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IcePro | Abastecimiento de Hielo Premium</title>
+    <meta name="description"
+        content="Suministro de hielo constante y confiable para bares, restaurantes y minimarkets.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script async src="https://tally.so/widgets/embed.js"></script>
+</head>
+
+<body>
+    <!-- NUEVO SITE HEADER -->
+    <header class="site-header" id="site-header-new">
+        <div class="site-logo">ICE<span class="text-accent">PRO</span></div>
+        <nav class="site-nav">
+            <a href="#beneficios" class="site-nav-link">Servicios</a>
+            <a href="#formatos" class="site-nav-link">Formatos</a>
+            <a href="#" class="site-btn-outline open-client-modal">Clientes</a>
+        </nav>
+        <button class="site-hamburger" aria-label="Abrir menú" aria-expanded="false">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+    </header>
+
+    <!-- DRAWER MOBILE -->
+    <div class="site-mobile-drawer" id="site-mobile-drawer">
+        <div class="site-drawer-header">
+            <div class="site-logo">ICE<span class="text-accent">PRO</span></div>
+            <button class="site-drawer-close" aria-label="Cerrar menú">✕</button>
+        </div>
+        <nav class="site-drawer-nav">
+            <a href="#beneficios" class="site-drawer-link">Servicios</a>
+            <a href="#formatos" class="site-drawer-link">Formatos</a>
+            <a href="#" class="site-btn-outline site-drawer-btn open-client-modal">Clientes</a>
+        </nav>
+    </div>
+
+    <main>
+        <!-- SECTION 1 - HERO (Dark) -->
+        <section id="propuesta" class="hero dark-section">
+            <div class="hero-content">
+                <h1 class="hero-title reveal">Abastecimiento de hielo <br><span class="text-accent">sin fricción.</span>
+                </h1>
+                <p class="hero-subtitle reveal delay-1">Hielo premium cuando lo necesitas. Un servicio continuo para que
+                    nunca te quedes sin stock.</p>
+                <div class="hero-actions reveal delay-2">
+                    <a href="#" class="btn btn-primary" data-tally-open="VLZx0a" data-tally-layout="modal"
+                        data-tally-width="700" data-tally-form-events-forwarding="1">Solicitar Cotización</a>
+                    <a href="https://wa.me/56968194920?text=Hola%2C%20quiero%20cotizar%20hielo%20para%20mi%20negocio.%0ANombre%3A%20%0AComuna%3A%20%0ACantidad%20aproximada%20%28kg%29%3A%20%0AFormato%20%281kg%20%2F%202kg%29%3A%20%0AFecha%20requerida%3A%20"
+                        class="btn btn-secondary">Hablemos por WhatsApp</a>
+                </div>
+            </div>
+            <div class="hero-visual reveal delay-3">
+                <div class="chat-ui">
+                    <div class="chat-bubble client-bubble reveal-once">
+                        <p>Hola, necesito 40 bolsas para el martes a las 18:00.</p>
+                        <span class="chat-time">10:42 AM</span>
+                    </div>
+                    <div class="chat-bubble system-bubble reveal-once delay-1">
+                        <p>Pedido agendado.</p>
+                        <span class="chat-time">10:45 AM</span>
+                    </div>
+                    <div class="chat-bubble system-bubble reveal-once delay-2">
+                        <p>Ruta confirmada.</p>
+                        <span class="chat-time">Mar 14:30</span>
+                    </div>
+                    <div class="chat-bubble system-bubble active-bubble reveal-once delay-3 flex-align">
+                        <div class="pulse-dot active-dot"></div>
+                        <div>
+                            <p>Estamos en camino.</p>
+                            <span class="chat-time">Mar 17:15</span>
+                        </div>
+                    </div>
+                    <div class="glow-orb"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2 - VISUAL STORY (White, Placeholder Left, Text Right) -->
+        <section class="visual-story white-section">
+            <div class="story-grid container-fluid">
+                <div class="story-visual reveal">
+                    <img src="/assets/bloque-demanda.png" alt="Demanda de hielo" class="aspect-video image-zoom-hover"
+                        style="object-fit: cover; border-radius: 8px;">
+                </div>
+                <div class="story-content reveal delay-1 text-left">
+                    <h2 class="section-title text-dark">Las fechas altas llegan.<br>La demanda sube.<br><span
+                            class="text-accent">Y el hielo no puede fallar.</span></h2>
+                    <p class="section-text text-dark-secondary">Entendemos la demanda de la barra y el retail. Hemos
+                        creado una logística de despacho que elimina la incertidumbre en tus días y noches más intensos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3 - BIG NUMBERS (Solid Blue Band) -->
+        <section id="numeros" class="big-numbers accent-bg">
+            <div class="numbers-grid centered-grid">
+                <div class="number-card reveal">
+                    <span class="number-val" data-target="657" data-prefix="+" data-suffix="">+0</span>
+                    <span class="number-label">Toneladas entregadas</span>
+                </div>
+                <div class="number-card reveal delay-1">
+                    <span class="number-val" data-target="420" data-prefix="+" data-suffix="">+0</span>
+                    <span class="number-label">Clientes activos</span>
+                </div>
+                <div class="number-card reveal delay-2">
+                    <span class="number-val" data-target="31" data-prefix="+" data-suffix=".000">+0</span>
+                    <span class="number-label">Entregas realizadas</span>
+                </div>
+                <div class="number-card reveal delay-3">
+                    <span class="number-val" data-target="6" data-prefix="+" data-suffix="">+0</span>
+                    <span class="number-label">Años operando</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4 - BENEFICIOS (Black) -->
+        <section id="beneficios" class="beneficios black-section">
+            <div class="section-header reveal text-center">
+                <h2 class="section-title text-white">Impulsamos tu negocio con abastecimiento estratégico</h2>
+            </div>
+            <div class="benefits-grid container-fluid">
+                <!-- Beneficio 1 -->
+                <div class="benefit-card dark-card reveal">
+                    <div class="benefit-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title text-dark">Entrega programada</h3>
+                    <p class="benefit-desc text-dark-secondary">Recibe tu hielo exactamente en los días y horarios que
+                        mejor te acomoden.</p>
+                </div>
+                <!-- Beneficio 2 -->
+                <div class="benefit-card dark-card reveal delay-1">
+                    <div class="benefit-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-package-check">
+                            <path d="m16 16 2 2 4-4" />
+                            <path
+                                d="M21 10V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2-1.14" />
+                            <path d="m7.5 4.27 9 5.15" />
+                            <polyline points="3.29 7 12 12 20.71 7" />
+                            <line x1="12" x2="12" y1="22" y2="12" />
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title text-dark">Stock estable</h3>
+                    <p class="benefit-desc text-dark-secondary">Volumen garantizado todo el año, incluso en temporada
+                        alta.</p>
+                </div>
+                <!-- Beneficio 3 -->
+                <div class="benefit-card dark-card reveal delay-2">
+                    <div class="benefit-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title text-dark">Despacho ágil</h3>
+                    <p class="benefit-desc text-dark-secondary">Respuesta constante para cubrir tus necesidades
+                        habituales.</p>
+                </div>
+                <!-- Beneficio 4 -->
+                <div class="benefit-card dark-card reveal delay-3">
+                    <div class="benefit-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                            </path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title text-dark">Transporte refrigerado</h3>
+                    <p class="benefit-desc text-dark-secondary">Cadena de frío intacta desde origen hasta tu local.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5 - STATEMENT (White) -->
+        <section class="visual-story white-section statement-block-spacing">
+            <div class="story-grid container-fluid align-start">
+                <div class="story-content reveal text-left">
+                    <h2 class="statement-title text-dark margin-bottom-small">
+                        Olvídate<br>
+                        de perseguir a tu<br>
+                        proveedor a última hora.
+                    </h2>
+                    <p class="statement-subtitle text-dark-secondary margin-0">Evaluamos tu flujo, programamos las
+                        entregas y nos aseguramos de que el hielo siempre esté ahí. Tú solo concéntrate en atender a tus
+                        clientes.</p>
+                </div>
+                <div class="story-visual reveal delay-1">
+                    <img src="assets/bloque-proveedor.png" alt="Logística de entrega"
+                        class="aspect-video image-zoom-hover"
+                        style="object-fit: cover; border-radius: 8px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);">
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 6 - HOW IT WORKS (White, directly below statement) -->
+        <section id="proceso" class="how-it-works white-section padding-top-small">
+            <div class="container-fluid">
+                <div class="section-header reveal text-center margin-bottom-medium">
+                    <p class="section-prefix text-dark-secondary"
+                        style="font-size: 1.6rem; font-weight: 500; margin-bottom: 0.5rem;">Hemos creado un proceso</p>
+                    <h2 class="section-title text-dark">Simple, directo y <span class="text-accent">sin fricción.</span>
+                    </h2>
+                </div>
+                <div class="process-grid">
+                    <div class="process-card reveal">
+                        <div class="process-step">01</div>
+                        <h3 class="process-title text-dark">Coordinamos tu necesidad</h3>
+                        <p class="process-desc text-dark-secondary">Evaluamos tu flujo de ventas para pactar un
+                            abastecimiento que tenga sentido para tu local.</p>
+                    </div>
+                    <div class="process-card reveal delay-1">
+                        <div class="process-step">02</div>
+                        <h3 class="process-title text-dark">Programamos entregas</h3>
+                        <p class="process-desc text-dark-secondary">Nos anticipamos. Tu pedido llega puntual para que
+                            nunca tengas que preocuparte de la reserva.</p>
+                    </div>
+                    <div class="process-card reveal delay-2">
+                        <div class="process-step">03</div>
+                        <h3 class="process-title text-dark">Tú operas tranquilo</h3>
+                        <p class="process-desc text-dark-secondary">Concéntrate en atender a tus clientes y en tu
+                            negocio. Nosotros nos encargamos de que el hielo esté ahí.</p>
+                    </div>
+                </div>
+
+                <!-- CTA IN-BLOCK -->
+                <div class="reveal delay-3 text-center margin-top-large margin-bottom-small">
+                    <a href="#" class="btn btn-primary" style="font-size: 1.15rem; padding: 1.2rem 3rem;"
+                        data-tally-open="VLZx0a" data-tally-layout="modal" data-tally-width="700"
+                        data-tally-form-events-forwarding="1">Solicitar
+                        cotización</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 7 - FORMATOS (Light Grey) -->
+        <section id="formatos" class="formatos light-grey-section">
+            <div class="section-header reveal text-center margin-bottom-large">
+                <h2 class="section-title text-dark">Formatos pensados para <br><span class="text-accent">cómo realmente
+                        trabajas.</span></h2>
+            </div>
+            <div class="formatos-grid">
+                <!-- Bolsa 2kg -->
+                <div class="formato-card-solid reveal">
+                    <div class="formato-content-solid">
+                        <div class="formato-header-solid">
+                            <h3 class="formato-title-solid text-dark">Bolsa 2 kg</h3>
+                            <span class="formato-badge">Alto Consumo</span>
+                        </div>
+                        <p class="formato-explicit text-dark-secondary">Perfecta para restaurantes, bares, eventos y
+                            cafeterías.</p>
+                        <ul class="formato-features-solid text-dark-secondary">
+                            <li>Rapidez en el servicio de barra.</li>
+                            <li><strong>Manipulación eficiente</strong> para el bartender.</li>
+                            <li>Formato optimizado para enfriadores grandes.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Bolsa 1kg -->
+                <div class="formato-card-solid reveal delay-1">
+                    <div class="formato-content-solid">
+                        <div class="formato-header-solid">
+                            <h3 class="formato-title-solid text-dark">Bolsa 1 kg</h3>
+                            <span class="formato-badge">Venta Directa</span>
+                        </div>
+                        <p class="formato-explicit text-dark-secondary">Ideal para minimarkets y botillerías.</p>
+                        <ul class="formato-features-solid text-dark-secondary">
+                            <li><strong>Código de barras</strong> para venta rápida.</li>
+                            <li><strong>Manilla práctica</strong> para el cliente final.</li>
+                            <li>Lista para exhibir.</li>
+                            <li>Rotación constante garantizada.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Micro-bloque de Cadena de Frío -->
+            <div class="cold-chain-microblock reveal delay-2">
+                <div class="cold-chain-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="12" y1="2" x2="12" y2="22"></line>
+                        <line x1="12" y1="2" x2="16" y2="6"></line>
+                        <line x1="12" y1="2" x2="8" y2="6"></line>
+                        <line x1="12" y1="22" x2="16" y2="18"></line>
+                        <line x1="12" y1="22" x2="8" y2="18"></line>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <line x1="2" y1="12" x2="6" y2="8"></line>
+                        <line x1="2" y1="12" x2="6" y2="16"></line>
+                        <line x1="22" y1="12" x2="18" y2="8"></line>
+                        <line x1="22" y1="12" x2="18" y2="16"></line>
+                        <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line>
+                        <line x1="4.93" y1="19.07" x2="19.07" y2="4.93"></line>
+                    </svg>
+                </div>
+                <h4 class="cold-chain-title text-dark">Cadena de frío garantizada</h4>
+                <p class="cold-chain-text text-dark-secondary">Cada formato se entrega en transporte refrigerado para
+                    asegurar que el hielo llegue seco, firme y listo para uso inmediato.</p>
+            </div>
+        </section>
+
+        <!-- FAQ + TESTIMONIALS UNIFIED WRAPPER TO PREVENT SPLIT TONE AND BACKGROUND OVERLAPS -->
+        <div class="unified-testimonials-faq-wrapper">
+            <!-- Large soft blue ice cubes in background isolated cleanly inside this white block across both sections -->
+            <div class="bg-cube bg-cube-1">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#2962ff" stroke-width="0.3" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path
+                        d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                    </path>
+                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                </svg>
+            </div>
+            <div class="bg-cube bg-cube-2">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#2962ff" stroke-width="0.3" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path
+                        d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                    </path>
+                    <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                    <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                </svg>
+            </div>
+
+            <!-- SECTION 8 - TESTIMONIALS -->
+            <section id="resenas"
+                class="testimonials bg-transparent padding-bottom-small padding-top-small position-relative z-10">
+                <div class="section-header reveal text-center margin-bottom-large position-relative">
+                    <h2 class="section-title-smaller text-dark" style="padding-top:2rem;">Cuando el hielo deja de ser
+                        una preocupación</h2>
+                </div>
+
+                <div class="carousel-container reveal">
+                    <button class="carousel-btn prev-btn" aria-label="Anterior">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+
+                    <div class="carousel-track-wrapper">
+                        <div class="carousel-track">
+                            <!-- Slide 1 -->
+                            <div class="testimo-slide">
+                                <div class="testimo-card-wide">
+                                    <div class="stars">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                    </div>
+                                    <p class="testimo-text">Desde que nos abastecen, nos olvidamos de la falta de stock
+                                        en
+                                        fechas clave. Nos ayuda muchísimo.</p>
+                                    <div class="testimo-author-block">
+                                        <p class="testimo-author">Carlos M.</p>
+                                        <p class="testimo-role">Jefe de Compras, Hotel The Coast</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 2 -->
+                            <div class="testimo-slide">
+                                <div class="testimo-card-wide">
+                                    <div class="stars">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                    </div>
+                                    <p class="testimo-text">El formato de 1 kg con su manilla lo hace muy fácil de
+                                        llevar
+                                        para nuestros clientes diarios.</p>
+                                    <div class="testimo-author-block">
+                                        <p class="testimo-author">Andrea V.</p>
+                                        <p class="testimo-role">Gerente Comercial, Retail Express</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 3 -->
+                            <div class="testimo-slide">
+                                <div class="testimo-card-wide">
+                                    <div class="stars">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                    </div>
+                                    <p class="testimo-text">Súper puntuales. Cumplen y eso nos deja abrir la barra sin
+                                        estar
+                                        estresados a último minuto.</p>
+                                    <div class="testimo-author-block">
+                                        <p class="testimo-author">Roberto S.</p>
+                                        <p class="testimo-role">Dueño, Bar Central District</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 4 -->
+                            <div class="testimo-slide">
+                                <div class="testimo-card-wide">
+                                    <div class="stars">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                    </div>
+                                    <p class="testimo-text">Entienden la logística de un evento masivo. Nos cubrieron un
+                                        quiebre de stock en tiempo récord.</p>
+                                    <div class="testimo-author-block">
+                                        <p class="testimo-author">Valeria P.</p>
+                                        <p class="testimo-role">Productora de Eventos</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 5 -->
+                            <div class="testimo-slide">
+                                <div class="testimo-card-wide">
+                                    <div class="stars">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                    </div>
+                                    <p class="testimo-text">La bolsa de 2kg dura excelente en frapera. Nunca habíamos
+                                        tenido
+                                        hielo tan limpio y cristalino en bar.</p>
+                                    <div class="testimo-author-block">
+                                        <p class="testimo-author">Ignacio C.</p>
+                                        <p class="testimo-role">Head Bartender</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 6 -->
+                            <div class="testimo-slide">
+                                <div class="testimo-card-wide">
+                                    <div class="stars">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFC107" stroke="#FFC107"
+                                            stroke-width="1">
+                                            <polygon
+                                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                            </polygon>
+                                        </svg>
+                                    </div>
+                                    <p class="testimo-text">Dejamos de correr a comprar hielo a medianoche. La ruta
+                                        programa
+                                        es un alivio total.</p>
+                                    <div class="testimo-author-block">
+                                        <p class="testimo-author">María Paz J.</p>
+                                        <p class="testimo-role">Administradora Restaurante</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-btn next-btn" aria-label="Siguiente">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <!-- Indicators will be generated via JS for dynamic layout -->
+                <div class="carousel-indicators" id="carousel-dots"></div>
+            </section>
+
+            <!-- SECTION 8.5 - FAQ -->
+            <section id="faq" class="faq bg-transparent position-relative z-10 padding-bottom-large"
+                style="margin-top: 4rem; padding-bottom: 6rem;">
+                <div class="container-fluid" style="max-width: 800px;">
+                    <div class="section-header reveal text-center margin-bottom-large">
+                        <h2 class="section-title text-dark"
+                            style="font-size: clamp(2rem, 4vw, 3rem); padding-top:2rem;">Preguntas frecuentes
+                        </h2>
+                        <p class="section-text text-dark-secondary margin-top-small">Resolvemos las dudas más comunes
+                            antes de coordinar tu
+                            abastecimiento.</p>
+                    </div>
+
+                    <div class="faq-accordion reveal delay-1">
+                        <div class="faq-item">
+                            <button class="faq-question text-dark" aria-expanded="false">
+                                <span class="faq-text">¿En qué zonas realizan despacho?</span>
+                                <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    </svg></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p class="text-dark-secondary">Actualmente trabajamos dentro de la Región Metropolitana.
+                                    Si
+                                    tu negocio está en este sector, podemos coordinar sin problema.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question text-dark" aria-expanded="false">
+                                <span class="faq-text">¿Hay mínimo de compra?</span>
+                                <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    </svg></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p class="text-dark-secondary">Trabajamos con volúmenes acordes a tu negocio.
+                                    Actualmente el
+                                    mínimo es de 40 kilos por pedido, conversable según sector y frecuencia.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question text-dark" aria-expanded="false">
+                                <span class="faq-text">¿Qué pasa en fechas de alta demanda?</span>
+                                <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    </svg></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p class="text-dark-secondary">Nuestros clientes tienen prioridad. En verano y eventos
+                                    masivos no improvisamos ni sobrevendemos capacidad.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question text-dark" aria-expanded="false">
+                                <span class="faq-text">¿El hielo llega en buenas condiciones?</span>
+                                <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    </svg></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p class="text-dark-secondary">Sí. Despachamos en camioneta refrigerada para mantener la
+                                    cadena térmica intacta hasta tu local.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question text-dark" aria-expanded="false">
+                                <span class="faq-text">¿Puedo pedir más si vendo más?</span>
+                                <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    </svg></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p class="text-dark-secondary">Claro. Ajustamos el volumen cuando tu negocio lo
+                                    necesita.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question text-dark" aria-expanded="false">
+                                <span class="faq-text">¿Entregan el mismo día?</span>
+                                <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    </svg></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p class="text-dark-secondary">Dependiendo del sector y disponibilidad, sí. Lo
+                                    coordinamos
+                                    directamente contigo.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question text-dark" aria-expanded="false">
+                                <span class="faq-text">¿Cómo se realiza el pago?</span>
+                                <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    </svg></span>
+                            </button>
+                            <div class="faq-answer">
+                                <p class="text-dark-secondary">Transferencia, efectivo o método previamente acordado.
+                                    Simple
+                                    y directo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div><!-- END UNIFIED WRAPPER -->
+
+        <!-- SECTION 9 - FINAL CTA (Strong Blue) -->
+        <section id="cta" class="final-cta accent-bg cta-centered">
+            <div class="cta-content container-fluid reveal">
+                <h2 class="cta-title">Asegura tu abastecimiento.</h2>
+                <p class="cta-subtitle text-white" style="opacity: 0.9;">Da el paso a una operación más tranquila y
+                    confiable hoy mismo.</p>
+                <div class="cta-actions">
+                    <a href="#" class="btn btn-white-dark" data-tally-open="VLZx0a" data-tally-layout="modal"
+                        data-tally-width="700" data-tally-form-events-forwarding="1">Solicitar Cotización</a>
+                    <a href="#" class="btn btn-outline-white">Hablemos por WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 10 - CINEMATIC STRIP -->
+        <section class="cinematic-strip">
+            <div class="cinematic-overlay"></div>
+            <video src="assets/cinematic-strip-v3.mp4" autoplay muted loop playsinline></video>
+        </section>
+    </main>
+
+    <footer class="footer-comprehensive">
+        <div class="footer-grid container-fluid">
+            <div class="footer-brand">
+                <div class="logo">ICE<span class="text-accent">PRO</span></div>
+                <p class="footer-mission">Tu aliado confiable en abastecimiento de hielo. Nunca dejamos que la
+                    temperatura sea un problema.</p>
+                <p class="footer-disclaimer text-accent font-medium margin-top-small">Despacho exclusivo dentro de la
+                    Región Metropolitana.</p>
+            </div>
+            <div class="footer-contact">
+                <h4 class="footer-heading">Contacto</h4>
+                <ul>
+                    <li>Teléfono: +56 9 6819 4920</li>
+                    <li>WhatsApp: +56 9 6819 4920</li>
+                    <li>Email: contacto@icepro.cl</li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <h4 class="footer-heading">Información</h4>
+                <ul>
+                    <li>Dirección: Almirante riveros, San Bernardo, RM.</li>
+                    <li>Horario: Lun - Sáb, 10:30hrs. - 19:30hrs.</li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4 class="footer-heading">Enlaces</h4>
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#formatos">Formatos</a></li>
+                    <li><a href="#pedidos">Acceso Clientes</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 IcePro. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- MODAL CLIENTES -->
+    <div class="client-modal-overlay" id="client-modal">
+        <div class="client-modal-content">
+            <button class="client-modal-close" aria-label="Cerrar modal">✕</button>
+            <h2 class="client-modal-title">Acceso Clientes</h2>
+            <p class="client-modal-subtitle">Acceso exclusivo para clientes activos</p>
+            <form id="client-login-form" class="client-modal-form">
+                <div class="form-group">
+                    <label for="client-user">Usuario</label>
+                    <input type="text" id="client-user" placeholder="Ingresa tu usuario" required>
+                </div>
+                <div class="form-group">
+                    <label for="client-pass">Contraseña</label>
+                    <input type="password" id="client-pass" placeholder="Ingresa tu contraseña" required>
+                </div>
+                <button type="submit" class="btn btn-primary client-modal-btn">Iniciar sesión</button>
+                <div class="login-feedback" id="login-feedback"></div>
+            </form>
+            <p class="client-modal-footer-text">Si eres cliente y aún no tienes tus credenciales, contáctanos
+                directamente.</p>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
